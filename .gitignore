@@ -1,0 +1,15 @@
+# 가상환경, 파이썬 캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 키와 비밀 값은 절대 올리지 않습니다
+.env
+
+# 실행하면 생기는 로컬 저장소
+chroma_db/
+checkpoints.sqlite
+
+# 실제 사내 메일을 저장할 경우를 대비한 폴더 (올리지 않음)
+data/real/

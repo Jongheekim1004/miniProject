@@ -1,0 +1,8 @@
+# 현재 단계에서 필요한 패키지 (메일 읽기, 분류 체인)
+langchain-core>=0.3
+pydantic>=2.7
+
+# 업무 PC에서 Outlook 연동할 때만 필요 (Windows 전용)
+pywin32; sys_platform == "win32"
+
+# 이후 단계에서 추가 예정: langchain-aws (Bedrock), langchain-chroma (RAG), fastapi (app.py)
